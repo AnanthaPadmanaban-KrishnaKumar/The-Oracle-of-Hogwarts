@@ -19,6 +19,7 @@ This project demonstrates the implementation of a Retrieval-Augmented Generation
 4. Generating Responses:
     * Using the query's vector, the system retrieves the most relevant text chunks from Pinecone.
     * These chunks are then fed into the GPT-4 model along with the query to generate coherent and contextually relevant text responses.
+![General Overview](https://github.com/AnanthaPadmanaban-KrishnaKumar/The-Oracle-of-Hogwarts/blob/main/assets/generator.png)    
 ## Technologies Used
 * LangChain: For loading and preprocessing text data from books.
 * OpenAI Embedding text-embedding-3-small Model: For converting text into embeddings.
